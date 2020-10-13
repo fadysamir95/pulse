@@ -1,12 +1,25 @@
+@font-face {
+  font-family: sanslight;
+  src: url(../fonts/NeoSans_Light.otf);
+}
+@font-face {
+  font-family: sansmedium;
+  src: url(../fonts/Neo_Sans_Medium.ttf);
+}
 body {
   background-color:  #f2f2f2;
+  font-family: sanslight;
 }
 .title {
   font-weight: 600;
   text-transform: uppercase;
+  position: relative;
 }
 .title h2 {
   margin-bottom: 0;
+  font-size: 35px;
+  margin-left: 11%;
+  font-family: sanslight;
   font-size: 35px;
 }
 .side-title {
@@ -34,6 +47,7 @@ input[type=number] {
   height: 31px;
   width: 145px;
   padding: 2px;
+  font-size: 16px;
 }
 .btn-main:hover, .btn-main:active, .btn-main:focus {
   background-color: #e30029 !important;
@@ -103,9 +117,6 @@ input[type=number] {
   justify-content: center;
   margin: 20px 0;
 }
-.menu-icon img {
-  width: 22px;
-}
 .list-group .horizontal-line {
   background-color: #e30029;
   width: 32px;
@@ -164,10 +175,24 @@ input[type=number] {
   }
 }
 
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* ---------- */
+/* Home Page */
+/* -------- */
+
+/* Pulse */
+.pulse {
+  position: absolute;
+  top: 14%;
+  right: 0;
+  z-index: 0;
+}
+
 /* Oblique Section */
 .oblique-sec {
   background-color: #fff;
-  background-image: url("../images/oblique.jpg");
+  background-image: url("../images/oblique2.jpg");
   background-size: cover;
   background-position: bottom;
   width: 100%;
@@ -177,24 +202,38 @@ input[type=number] {
 }
 .oblique-sec .play {
   position: absolute;
-  top: 34%;
-  left: 47%;
+  top: 24%;
+  left: 50%;
 }
 .oblique-sec .play .fa-play-circle {
   font-size: 60px;
-  color: #fff;
+  color: #000;
   cursor: pointer;
+}
+.oblique-sec .creative {
+  position: absolute;
+  top: 42%;
+  left: 29%;
+}
+.oblique-sec .creative p {
+  color: #e30029;
+  letter-spacing: 50px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: sanslight;
 }
 
 /* Intro Section */
 .intro-sec {
   background-color: #fff;
   height: 300px;
+  z-index: 2;
+  position: relative;
 }
 .intro-sec .intro-sec_head h3 {
-  font-size: 34px;
+  font-size: 35px;
   color: #e30029;
-  font-weight: 600;
+  font-family: sansmedium;
 }
 .intro-sec .owl-carousel .item {
   display: flex;
@@ -203,6 +242,11 @@ input[type=number] {
 }
 .intro-sec .owl-carousel .item .item-desc {
   max-width: 30%;
+}
+.intro-sec .owl-carousel .item .item-desc h4 {
+  font-family: sanslight;
+  font-size: 25px;
+  font-weight: 600;
 }
 .intro-sec .owl-carousel .item .item-desc span {
   color: #e30029;
@@ -222,6 +266,11 @@ input[type=number] {
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #e30029;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover, .owl-theme .owl-nav [class*="owl-"]:active, .owl-theme .owl-nav [class*="owl-"]:focus {
+  background: #e30029;
+  outline: 0;
+  color: #fff;
 }
 
 /* Portfolio Section */
@@ -251,11 +300,11 @@ input[type=number] {
 }
 .portfolio-sec .category .type {
   margin-bottom: 1px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .portfolio-sec .category .name {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
 }
 
@@ -272,11 +321,11 @@ input[type=number] {
   padding-top: 2%;
 }
 .partners-sec .partners-explain p:first-child {
-  font-size: 19px;
-  margin: 10px 0 5px 0;
+  font-size: 25px;
+  margin: 10px 0 0 0;
 }
 .partners-sec .partners-explain p:last-child {
-  font-size: 26px;
+  font-size: 35px;
   font-weight: 600;
 }
 .partners-sec .partner {
@@ -564,11 +613,12 @@ footer .footer-bottom .stay {
 }
 .keep-sec p:first-child {
   margin-top: 1%;
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom: 4px;
 }
 .keep-sec p:nth-child(2) {
-  font-size: 23px;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 /* Technology Section */
