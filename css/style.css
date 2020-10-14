@@ -155,7 +155,7 @@ input[type=number] {
 }
 .mega-menu .mega-menu--nav .item {
   font-size: 29px;
-  margin-right: 3%;
+  margin-right: 2rem;
   font-weight: 600;
   text-transform: uppercase;
   border-right: 2px solid #000;
@@ -176,6 +176,11 @@ input[type=number] {
 .mega-menu .mega-menu--nav li:first-child .mega-menu--list {
   position: absolute;
   top: 33px;
+  list-style: none;
+  margin-left: -2.15rem;
+  padding-left: 32px;
+  padding-top: 45px;
+  display: none;
 }
 .mega-menu .mega-menu--nav li:first-child .mega-menu--list li {
   text-transform: uppercase;
@@ -194,6 +199,12 @@ input[type=number] {
 .mega-menu .mega-menu--nav li:nth-child(2) .mega-menu--list {
   position: absolute;
   top: 33px;
+  list-style: none;
+  border-left: 2px solid #000;
+  margin-left: -2.15rem;
+  padding-left: 24px;
+  padding-top: 45px;
+  display: none;
 }
 .mega-menu .mega-menu--nav li:nth-child(2) .mega-menu--list li {
   text-transform: uppercase;
@@ -209,75 +220,99 @@ input[type=number] {
   color: #e30029;
 }
 /* Third List*/
-.mega-menu .mega-menu--list:nth-child(3) {
+.mega-menu .mega-menu--nav li:nth-child(3) .mega-menu--list {
   position: absolute;
   top: 33px;
+  list-style: none;
+  border-left: 2px solid #000;
+  margin-left: -2.15rem;
+  padding-left: 24px;
+  padding-top: 45px;
+  display: none;
 }
-.mega-menu .mega-menu--list:nth-child(3) li {
+.mega-menu .mega-menu--nav li:nth-child(3) .mega-menu--list li {
   text-transform: uppercase;
   padding-bottom: 12px;
 }
-.mega-menu .mega-menu--list:nth-child(3) li a {
+.mega-menu .mega-menu--nav li:nth-child(3) .mega-menu--list li a {
   font-size: 18px;
   font-family: sansregular;
   text-transform: uppercase;
   color: #272b2f;
 }
-.mega-menu .mega-menu--list:nth-child(3) li a:hover, .mega-menu .mega-menu--list:nth-child(3) li a:active, .mega-menu .mega-menu--list:nth-child(3) li a:focus {
+.mega-menu .mega-menu--nav li:nth-child(3) .mega-menu--list li a:hover, .mega-menu .mega-menu--nav li:nth-child(3) .mega-menu--list li a:active, .mega-menu .mega-menu--nav li:nth-child(3) .mega-menu--list li a:focus {
   color: #e30029;
 }
 /* Fourth List*/
-.mega-menu .mega-menu--list:nth-child(4) {
+.mega-menu .mega-menu--nav li:nth-child(4) .mega-menu--list {
   position: absolute;
   top: 33px;
+  list-style: none;
+  border-left: 2px solid #000;
+  margin-left: -2.15rem;
+  padding-left: 24px;
+  padding-top: 45px;
+  display: none;
 }
-.mega-menu .mega-menu--list:nth-child(4) li {
+.mega-menu .mega-menu--nav li:nth-child(4) .mega-menu--list li {
   text-transform: uppercase;
   padding-bottom: 12px;
 }
-.mega-menu .mega-menu--list:nth-child(4) li a {
+.mega-menu .mega-menu--nav li:nth-child(4) .mega-menu--list li a {
   font-size: 18px;
   font-family: sansregular;
   text-transform: uppercase;
   color: #272b2f;
 }
-.mega-menu .mega-menu--list:nth-child(4) li a:hover, .mega-menu .mega-menu--list:nth-child(4) li a:active, .mega-menu .mega-menu--list:nth-child(4) li a:focus {
+.mega-menu .mega-menu--nav li:nth-child(4) .mega-menu--list li a:hover, .mega-menu .mega-menu--nav li:nth-child(4) .mega-menu--list li a:active, .mega-menu .mega-menu--nav li:nth-child(4) .mega-menu--list li a:focus {
   color: #e30029;
 }
 /* Fifth List*/
-.mega-menu .mega-menu--list:nth-child(5) {
+.mega-menu .mega-menu--nav li:nth-child(5) .mega-menu--list {
   position: absolute;
   top: 33px;
+  list-style: none;
+  border-left: 2px solid #000;
+  margin-left: -2.1rem;
+  padding-left: 24px;
+  padding-top: 45px;
+  display: none;
 }
-.mega-menu .mega-menu--list:nth-child(5) li {
+.mega-menu .mega-menu--nav li:nth-child(5) .mega-menu--list li {
   text-transform: uppercase;
   padding-bottom: 12px;
 }
-.mega-menu .mega-menu--list:nth-child(5) li a {
+.mega-menu .mega-menu--nav li:nth-child(5) .mega-menu--list li a {
   font-size: 18px;
   font-family: sansregular;
   text-transform: uppercase;
   color: #272b2f;
 }
-.mega-menu .mega-menu--list:nth-child(5) li a:hover, .mega-menu .mega-menu--list:nth-child(5) li a:active, .mega-menu .mega-menu--list:nth-child(5) li a:focus {
+.mega-menu .mega-menu--nav li:nth-child(5) .mega-menu--list li a:hover, .mega-menu .mega-menu--nav li:nth-child(5) .mega-menu--list li a:active, .mega-menu .mega-menu--nav li:nth-child(5) .mega-menu--list li a:focus {
   color: #e30029;
 }
 /* Sixth List*/
-.mega-menu .mega-menu--list:nth-child(6) {
+.mega-menu .mega-menu--nav li:nth-child(6) .mega-menu--list {
   position: absolute;
   top: 33px;
+  list-style: none;
+  border-left: 2px solid #000;
+  margin-left: -2.1rem;
+  padding-left: 24px;
+  padding-top: 45px;
+  display: none;
 }
-.mega-menu .mega-menu--list:nth-child(6) li {
+.mega-menu .mega-menu--nav li:nth-child(6) .mega-menu--list li {
   text-transform: uppercase;
   padding-bottom: 12px;
 }
-.mega-menu .mega-menu--list:nth-child(6) li a {
-  font-size: 18px;
+.mega-menu .mega-menu--nav li:nth-child(6) .mega-menu--list li a {
+  font-size: 16px;
   font-family: sansregular;
   text-transform: uppercase;
   color: #272b2f;
 }
-.mega-menu .mega-menu--list:nth-child(6) li a:hover, .mega-menu .mega-menu--list:nth-child(6) li a:active, .mega-menu .mega-menu--list:nth-child(6) li a:focus {
+.mega-menu .mega-menu--nav li:nth-child(6) .mega-menu--list li a:hover, .mega-menu .mega-menu--nav li:nth-child(6) .mega-menu--list li a:active, .mega-menu .mega-menu--nav li:nth-child(6) .mega-menu--list li a:focus {
   color: #e30029;
 }
 @media (min-width: 768px) {
@@ -787,7 +822,6 @@ footer .footer-bottom .stay {
   background-color: #f2f2f2;
 }
 .map-sec .offices {
-  text-align: right;
   margin-right: 52px;
   list-style: none;
   padding-left: 0;
@@ -798,11 +832,12 @@ footer .footer-bottom .stay {
   font-size: 25px;
   font-family: sanslight;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 .map-sec .offices li:first-child {
   font-weight: 600;
+  font-family: sansregular;
 }
 .map-sec .offices li::after {
   content: '';
