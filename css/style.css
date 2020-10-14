@@ -762,6 +762,9 @@ footer .footer-bottom .stay {
 /* Get In Touch Section */
 .keep-sec {
   background-color: #fff;
+  background-image: url('../images/start.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .keep-sec p {
   color: #000;
