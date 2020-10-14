@@ -23,4 +23,7 @@ $(document).ready(function(){
         $(".mega-menu--list").hide();
         $(".mega-menu .mega-menu--nav li:nth-child(6) .mega-menu--list").show();
     });
+    $(".mega-menu--nav li").mouseout(function() {
+        $(".mega-menu--list").hide();
+    });
 });

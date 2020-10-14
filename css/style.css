@@ -155,11 +155,11 @@ input[type=number] {
 }
 .mega-menu .mega-menu--nav .item {
   font-size: 29px;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
   border-right: 2px solid #000;
-  padding-right: 25px;
+  padding-right: 1.5rem;
 }
 .mega-menu .mega-menu--nav .item:last-child {
   border-right: 0;
@@ -177,8 +177,8 @@ input[type=number] {
   position: absolute;
   top: 33px;
   list-style: none;
-  margin-left: -2.15rem;
-  padding-left: 32px;
+  margin-left: -1.65rem;
+  padding-left: 28px;
   padding-top: 45px;
   display: none;
 }
@@ -201,7 +201,7 @@ input[type=number] {
   top: 33px;
   list-style: none;
   border-left: 2px solid #000;
-  margin-left: -2.15rem;
+  margin-left: -1.65rem;
   padding-left: 24px;
   padding-top: 45px;
   display: none;
@@ -225,7 +225,7 @@ input[type=number] {
   top: 33px;
   list-style: none;
   border-left: 2px solid #000;
-  margin-left: -2.15rem;
+  margin-left: -1.65rem;
   padding-left: 24px;
   padding-top: 45px;
   display: none;
@@ -249,7 +249,7 @@ input[type=number] {
   top: 33px;
   list-style: none;
   border-left: 2px solid #000;
-  margin-left: -2.15rem;
+  margin-left: -1.65rem;
   padding-left: 24px;
   padding-top: 45px;
   display: none;
@@ -273,7 +273,7 @@ input[type=number] {
   top: 33px;
   list-style: none;
   border-left: 2px solid #000;
-  margin-left: -2.1rem;
+  margin-left: -1.6rem;
   padding-left: 24px;
   padding-top: 45px;
   display: none;
@@ -297,7 +297,7 @@ input[type=number] {
   top: 33px;
   list-style: none;
   border-left: 2px solid #000;
-  margin-left: -2.1rem;
+  margin-left: -1.6rem;
   padding-left: 24px;
   padding-top: 45px;
   display: none;
@@ -828,7 +828,7 @@ footer .footer-bottom .stay {
   margin-right: 52px;
   list-style: none;
   padding-left: 0;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 .map-sec .offices li {
   margin-bottom: 1rem;
