@@ -1,0 +1,475 @@
+.top-20-px{top:20px}
+button, a{outline: none!important;}
+.h-90{height:90%}
+.w-90{width:90%}
+.card-size-1{flex:1 0 66.6%}
+.card-size-2{flex:0 0 33.333333%}
+.card-size-3 {
+    flex: 0 0 52.5%;
+}
+.card-size-4 {
+    flex: 0 0 32.5%;
+}
+.blog-item-margin{
+    margin-left:10.5%
+}
+.mega-menu--logo{
+    width:115px;
+}
+.partners-sec .partner:nth-child(5n) {
+    margin-right: 0;
+}
+.partners-sec .partner {
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    width: auto;
+    margin-right: 142px;
+}
+
+.blog-sec .blog-img{
+    max-width: 534px;
+    max-height: 230px;
+}
+.blog-sec{
+    margin-top:-75px
+}
+.partners-contain{
+    margin-top:-32px
+}
+.portfolio-sec{
+    margin-top:-32px
+}
+.all-articles-btn-wrapper{
+    margin-top:-32px;
+}
+.blog-description {
+    overflow: hidden;
+    height: 66px; 
+}
+.map-sec{
+    background-color: #fff;
+}
+
+.pulse {
+    position: absolute;
+    top: 916px;
+    left: 4.6%;
+    z-index: 0;
+  }
+  .title h2{
+      margin-left:0
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 1px solid red;
+}
+.blog-sec .owl-theme .owl-dots .owl-dot span {
+    width: 18px;
+    height: 18px;
+    background: #e30028;
+    border: 1px solid #fff;
+}
+.blog-sec .owl-theme .owl-dots .owl-dot.active span {
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 1px solid red; 
+}
+.portfolio-wrapper{
+    margin-left:-40px!important
+}
+.partners-contain h2{
+    /*margin-left:-15px!important*/
+}
+.map-sec .offices li{
+justify-content: flex-end;
+}
+.keep-sec{
+    background-color: #f0f0f0;
+}
+.map-sec .offices li::after{
+    position: absolute;
+    margin-right: -10px;
+}
+.map-sec .offices{
+    margin-right:65px
+}
+.map-flex-wrapper{
+    flex:0 0 82%;
+    z-index: 1;
+}
+.map-flex-wrapper img{
+    position: relative;
+    top: -15px;
+    right: -27px;
+}
+.offices-wrapper{
+    z-index: 1;
+}
+.offices-wrapper li {
+    text-transform: uppercase;
+}
+.map-sec .offices li.selected:after {
+    content: '';
+    height: 20px;
+    top: 6px;
+    border-radius: 0;
+}
+.map-pointer{
+    background: #e30028;
+    width: 10px;
+    height:10px;
+    border-radius: 40px;
+    position: absolute;
+}
+.map-pointer:after {
+    content: '';
+    background: #e30028;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 40px;
+    opacity: 0.4;
+}
+.map-pointer.selected:before {
+    content: '';
+    content: '';
+    background: #e30028;
+    position: absolute;
+    top: -9px;
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    opacity: 0.3;
+}
+.gcc-offices {
+    position: absolute;
+    top: 30vh;
+    right: 49vh;
+}
+.africa-offices {
+    position: absolute;
+    top: 32vh;
+    right: 55vh;
+}
+#cairoPointer{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#abuDhabiPointer{
+    left:28px;
+    top:-9px
+}
+#dubaiPointer{
+    left:37px;
+    top:6px
+}
+#jeddahPointer {
+    left: 10px;
+    top: 3px;
+}
+#casablancaPointer {
+    position: absolute;
+    top: -14px;
+    right: 67px;
+}
+
+/*animations*/
+
+  @keyframes color {
+    0% {
+      background-color: #ea4c89;
+    }
+    50% {
+      background-color: #e290af;
+    }
+    100% {
+      background-color: #ea4c89;
+    }
+  }
+  
+  .glow-pointer {
+    background-color: #222;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    left: -9px;
+    top: -9px;
+    opacity: 0.7;
+}
+  
+.mega-menu .mega-menu--nav .item a{
+    text-decoration: none;
+}
+
+.btn-arrow {
+    background: url(../images/icons/arrow.svg) no-repeat 69% center #eb2434;
+    width: 22px;
+    height: 31px;
+    position: relative;
+    top: -1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: -11px;
+    background-size: 55%;
+}
+.all-projects-btn-wrapper .btn-arrow{
+    top:0
+    }
+.btn-main {
+    background-color: transparent;
+    border: 1px solid #e30029;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #000;
+    height: 31px;
+    width: 145px;
+    padding: 1px 0 0 13px;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.row.stay{
+    margin-top:-55px;
+    z-index: 3;
+    position: relative;
+}
+.careers-testimonials-wrapper{
+    position: relative;
+    top:-24px
+}
+.newsletter-input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: black;
+    color: #fff;
+    height: 57px;
+    margin-top: -20px;
+    outline: none;
+}
+.newsletter-input::placeholder {
+    color: red;
+    text-transform: capitalize;
+}
+
+/* Desktops and laptops media queries ----------- */
+
+@media only screen 
+and (min-width : 1481px)  {
+.pulse {
+    left: 11.7%;    
+  }
+}
+@media only screen 
+and (min-width : 1510px)  {
+.pulse {
+    left: 12.4%;    
+  }
+}
+
+@media only screen 
+and (min-width : 1560px)  {
+.pulse {
+    left: 13.6%;    
+  }
+}
+@media only screen and (min-width : 1600px)  { /*1680px resolution*/
+.pulse {
+    left: 16.1%;    
+  }
+  .pulse svg {
+    height: 3615pt;
+}
+.offices-wrapper {
+    position: relative;
+    right: 112px;
+}
+}
+
+@media only screen 
+and (min-width : 1920px)  {/*1920px resolution*/
+.pulse {
+    left: 20.2%;    
+  }
+  .pulse svg {
+    height: 3745pt;
+}
+.offices-wrapper {
+    position: relative;
+    right: 175px;
+}
+}
+
+@media only screen 
+and (min-width : 1340px) and (max-width:1366px) {
+.pulse {
+    top:1000px
+  }
+  .gcc-offices{
+    top: 34vh;
+    right: 54vh;
+  }
+
+}
+@media only screen 
+and (min-width : 1300px) and (max-width:1339px) {
+.pulse {
+    top:980px
+  }
+
+}
+
+@media only screen 
+and (min-width : 1250px) and (max-width:1299px) {
+.pulse {
+    top:960px
+  }
+
+}
+
+@media only screen 
+and (min-width : 1461px) and (max-width:1480px) {
+.pulse {
+    left: 11.3%;    
+  }
+}
+
+@media only screen 
+and (min-width : 1440px) and (max-width:1460px) { /*1440px resolution*/
+.pulse {
+    left: 10.5%;    
+  }
+  .pulse svg {
+    height: 3222pt;
+}
+.offices-wrapper {
+    position: relative;
+    right: 62px;
+}
+}
+@media only screen 
+and (min-width : 1360px) and (max-width:1366px) { /*1366px resolution*/
+.pulse {
+    left: 8.2%;
+    top:1008px
+  }
+  .pulse svg {
+    height: 3104pt;
+}
+.offices-wrapper {
+    position: relative;
+    right: 55px;
+}
+
+}
+
+@media only screen and (min-width : 1350px) and (max-width:1360px) {
+    .pulse {
+        left: 8%;
+        
+      }
+    
+    }
+    @media only screen and (min-width : 1340px) and (max-width:1350px) {
+        .pulse {
+            left: 7.6%;
+           
+          }
+        
+        }
+        
+            @media only screen and (min-width : 1330px) and (max-width:1340px) {
+                .pulse {
+                    left: 7.4%;
+                   
+                  }
+                
+                }
+                @media only screen and (min-width : 1320px) and (max-width:1329px) {
+                    .pulse {
+                        left: 7%;
+                       
+                      }
+                    
+                    }
+                    @media only screen and (min-width : 1310px) and (max-width:1319px) {
+                        .pulse {
+                            left: 6.8%;
+                           
+                          }
+                        
+                        }
+                        @media only screen and (min-width : 1300px) and (max-width:1309px) {
+                            .pulse {
+                                left: 6.6%;
+                               
+                              }
+                            
+                            }
+                            @media only screen and (min-width : 1290px) and (max-width:1299px) {
+                                .pulse {
+                                    left: 6.2%;
+                                   
+                                  }
+                                
+                                }
+                            @media only screen and (min-width : 1280px) and (max-width:1289px) { /*1280px resolution */
+                                    .pulse {
+                                        left: 5.5%;
+                                       
+                                      }
+                                      .offices-wrapper {
+                                        position: relative;
+                                        right: 30px;
+                                    }
+                                    .pulse svg {
+                                        height: 3086pt;
+                                    }
+                                    .gcc-offices {
+                                        position: absolute;
+                                        top: 30vh;
+                                        right: 45vh;
+                                    }
+                                    .africa-offices {
+                                        position: absolute;
+                                        top: 27vh;
+                                        right: 47vh;
+                                    }
+                                    
+                                    
+                                    }
+                                    @media only screen and (min-width : 1270px) and (max-width:1279px) {
+                                        .pulse {
+                                            left: 5.6%;
+                                           
+                                          }
+                                        
+                                        }
+                                        @media only screen and (min-width : 1260px) and (max-width:1269px) {
+                                            .pulse {
+                                                left: 5.2%;
+                                               
+                                              }
+                                            
+                                            }
+                                            @media only screen and (min-width : 1230px) and (max-width:1259px) {
+                                                .pulse {
+                                                    left: 4.6%;
+                                                   
+                                                  }
+                                                
+                                                }
+                                               

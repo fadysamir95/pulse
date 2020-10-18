@@ -1,0 +1,284 @@
+/* --------------- */
+/* Portfolio Page */
+/* ------------- */
+.portfolio .portfolio-sec {
+    background-color: #fff;
+}
+  
+/* Oblique Section */
+.portfolio .oblique-sec {
+    background-image: url("../images/tech.jpg");
+}
+  
+/* Filter Section */
+.filter-sec {
+height: 190px;
+background-color: #fff;
+}
+.filter-sec a {
+color: #000;
+font-weight: 600;
+font-size: 22px;
+padding: 1px 15px 3px 15px;
+}
+.filter-sec a:hover, .filter-sec a:active, .filter-sec a:focus {
+text-decoration: none;
+background-color: #000;
+border-radius: 15px;
+color: #fff;
+}
+.filter-sec span {
+color: #e30029;
+font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* ---------- */
+/* Blog Page */
+/* -------- */
+
+/* Oblique Section */
+.blog .oblique-sec {
+background-image: url("../images/newspaper.jpg");
+}
+
+/* Slider Section */
+.slider-sec {
+height: 410px;
+background-color: #fff;
+}
+.slider-sec .btn-main {
+color: #fff;
+}
+.slider-sec--slider {
+display: flex;
+}
+.slider-sec--tips {
+width: 40%;
+display: flex;
+}
+.slider-sec--tips .card {
+background-color: #000;
+padding: 50px 20px;
+border-radius: 0;
+}
+.slider-sec--tips .card .card-body p:first-child {
+font-size: 22px;
+font-weight: 600;
+}
+.slider-sec--tips .card .card-body p:nth-child(2) {
+font-size: 15px;
+}
+.slider-sec--image {
+width: 60%;
+}
+
+/* Blog Section */
+.blog .blog-sec .blog-img {
+width: 100%;
+max-height: 250px;
+}
+.blog .blog-sec .blog-text h3 {
+font-size: 24px;
+font-weight: 600;
+color: #000;
+margin-top: 2%;
+}
+.blog .blog-sec .blog-text p {
+font-size: 16px;
+color: #000;
+}
+.blog .blog-sec .blog-date {
+text-align: right;
+color: #e30029;
+font-weight: 600;
+}
+.blog .blog-sec .blog-more {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 2rem;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* -------------- */
+/* About US Page */
+/* ------------ */
+
+/* Oblique Section */
+.about .oblique {
+background-color: #f2f2f2;
+}
+
+/* Numbers Section */
+.numbers-sec {
+background-color: #f2f2f2;
+}
+.numbers-sec h3 {
+font-size: 34px;
+color: #e30029;
+font-weight: 600;
+}
+.numbers-sec .numbers-sec--number {
+max-width: 60%;
+}
+.numbers-sec .numbers-sec--number p:first-child {
+color: #000;
+font-size: 62px;
+font-weight: 600;
+margin-bottom: 0;
+}
+.numbers-sec .numbers-sec--number hr {
+margin-top: 0;
+margin-bottom: 6px;
+border-top: 1px solid rgba(0,0,0,1);
+}
+.numbers-sec .numbers-sec--number p:last-child {
+color: #e30029;
+font-size: 14px;
+font-weight: 600;
+}
+.numbers-sec .numbers-sec--image img {
+max-height: 450px;
+width: 100%;
+}
+
+/* Get In Touch Section */
+.keep-sec {
+background-color: #fff;
+background-image: url('../images/start.png');
+background-repeat: no-repeat;
+background-position: bottom;
+}
+.keep-sec p {
+color: #000;
+}
+.keep-sec p:first-child {
+margin-top: 1%;
+font-size: 25px;
+margin-bottom: 4px;
+}
+.keep-sec p:nth-child(2) {
+font-size: 35px;
+font-weight: 600;
+}
+
+/* Technology Section */
+.tech-sec {
+background-color: #f2f2f2;
+}
+.tech-sec .tech-sec--head h3 {
+font-size: 34px;
+color: #000;
+font-weight: 600;
+margin-bottom: 0;
+}
+
+/* Partners Section */
+.about .partners-sec .partners-explain p:last-child {
+font-size: 30px;
+color: #e30029;
+text-transform: uppercase;
+}
+.about .partners-sec .partner {
+width: 24%;
+text-align: center;
+margin-top: 4%;
+margin-bottom: 1%;
+display: inline-block;
+}
+.about .partners-sec .partner img {
+width: 130px;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* ---------------- */
+/* Contact US Page */
+/* -------------- */
+
+/* Details Section */
+.details-sec h3 {
+font-size: 34px;
+color: #e30029;
+font-weight: 600;
+}
+
+/* Map Section */
+.map-sec {
+background-color: #f2f2f2;
+}
+.map-sec .offices {
+margin-right: 52px;
+list-style: none;
+padding-left: 0;
+margin-top: 3.5rem;
+}
+.map-sec .offices li {
+margin-bottom: 1rem;
+font-size: 25px;
+font-family: sanslight;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+.map-sec .offices li:first-child {
+font-weight: 600;
+font-family: sansregular;
+}
+.map-sec .offices li::after {
+content: '';
+display: inline-block;
+width: 5px;
+height: 5px;
+-moz-border-radius: 7.5px;
+-webkit-border-radius: 7.5px;
+border-radius: 7.5px;
+background-color: #fff;
+margin-left: 5px;
+}
+
+/* Form Section */
+.form-sec h3 {
+font-size: 32px;
+color: #e30029;
+}
+.form-sec .form-sec--desc {
+color: #000;
+}
+.form-sec .form-control {
+border: 0;
+border-bottom: 1px solid #000;
+border-radius: 0;
+padding-left: 0;
+}
+.form-sec .form-control:hover, .form-sec .form-control:active, .form-sec .form-control:focus  {
+box-shadow: none;
+}
+.form-sec .drag-here p {
+font-size: 12px;
+margin-bottom: 3px;
+}
+
+/* Opportunities Section */
+.opportunities-sec {
+position: relative;
+}
+.opportunities-sec img {
+width: 100%;
+max-height: 730px;
+}
+.opportunities-sec .positions {
+position: absolute;
+right: 8%;
+top: 38%;
+}
+.opportunities-sec .positions .btn-main {
+color: #fff;
+}
+.opportunities-sec .positions p {
+font-size: 35px;
+margin-bottom: 0;
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,13 +16,35 @@
     <link href="vendor/owl-carousel/css/owl.theme.green.min.css" rel="stylesheet">
     <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/secondary.css" rel="stylesheet">
   </head>
 
   <body>
     <div class="d-flex position-relative" id="wrapper">
 
       <div class="pulse">
-        <img src="images/home-pulse.png" />
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1008.000000pt" height="3356.000000pt"
+          viewBox="0 0 1008.000000 4256.000000" preserveAspectRatio="xMidYMid meet">
+          <metadata>
+            Created by potrace 1.16, written by Peter Selinger 2001-2019
+          </metadata>
+          <g transform="translate(0.000000,4256.000000) scale(0.100000,-0.100000)" fill="#e30029" stroke="none">
+            <path d="M4095 42549 c-355 -51 -656 -330 -758 -704 -9 -33 -84 -420 -167
+              -859 -1092 -5793 -2001 -10363 -2335 -11731 -119 -487 -434 -1086 -713 -1359
+              l-50 -49 71 -71 c59 -59 162 -195 181 -240 12 -27 235 232 365 424 235 347
+              430 782 525 1170 14 58 494 2481 1066 5385 572 2904 1047 5295 1055 5313 41
+              89 188 95 237 10 11 -19 14 -2948 18 -16678 5 -16160 6 -16658 24 -16750 90
+              -463 328 -746 733 -874 187 -59 137 -57 1723 -59 l1455 -2 59 -23 c156 -59
+              254 -156 319 -315 l22 -52 5 -2075 6 -2075 22 -79 c109 -388 377 -680 736
+              -802 177 -61 410 -73 579 -30 222 56 406 199 502 386 18 36 94 261 169 501
+              l136 435 -1 525 c0 455 -2 519 -14 484 -8 -22 -37 -114 -65 -204 -55 -174 -78
+              -213 -135 -227 -35 -9 -88 16 -112 53 -17 26 -18 109 -23 1638 l-5 1610 -23
+              75 c-42 135 -96 225 -197 325 -122 122 -216 175 -403 228 l-77 22 -1470 5
+              c-1372 5 -1474 7 -1530 24 -260 77 -453 270 -532 531 -17 58 -18 691 -23
+              17645 l-5 17585 -22 80 c-66 242 -153 396 -305 541 -145 139 -312 219 -542
+              259 -97 17 -396 19 -501 4z" />
+          </g>
+        </svg>
       </div>
 
       <!-- Start Mega Menu -->
@@ -32,24 +53,16 @@
           <div class="mega-menu--content">
             <div class="row">
               <div class="col-md-5 mt-2">
-                <h2 class="mega-menu--logo"><img src="images/logo.png" /></h2>
+                <h2 class="mega-menu--logo"><img src="images/menu-logo.png" /></h2>
               </div>
             </div>
             <div class="row">
               <div class="col-md-12 mt-3 position-relative">
                 <ul class="mega-menu--nav">
-                  <li class="item">
+                  <li id="menu-1" class="item">
                     <a href="#">Home</a>
-                    <ul class="mega-menu--list">
-                      <li><a href="#">Digital Consultancy</a></li>
-                      <li><a href="#">Digital Transformation Strategy</a></li>
-                      <li><a href="#">Performance Optimization</a></li>
-                      <li><a href="#">Design & Development</a></li>
-                      <li><a href="#">Social Media Marketing</a></li>
-                      <li><a href="#">Content Marketing</a></li>
-                    </ul>
                   </li>
-                  <li class="item">
+                  <li id="menu-2" class="item">
                     <a href="#">About</a>
                     <ul class="mega-menu--list">
                       <li><a href="#">Digital Consultancy</a></li>
@@ -60,7 +73,7 @@
                       <li><a href="#">Content Marketing</a></li>
                     </ul>
                   </li>
-                  <li class="item">
+                  <li id="menu-3" class="item">
                     <a href="#">Services</a>
                     <ul class="mega-menu--list">
                       <li><a href="#">Digital Consultancy</a></li>
@@ -71,7 +84,7 @@
                       <li><a href="#">Content Marketing</a></li>
                     </ul>
                   </li>
-                  <li class="item">
+                  <li id="menu-4" class="item">
                     <a href="#">Work</a>
                     <ul class="mega-menu--list">
                       <li><a href="#">Digital Consultancy</a></li>
@@ -82,7 +95,7 @@
                       <li><a href="#">Content Marketing</a></li>
                     </ul>
                   </li>
-                  <li class="item">
+                  <li id="menu-5" class="item">
                     <a href="#">Blog</a>
                     <ul class="mega-menu--list">
                       <li><a href="#">Digital Consultancy</a></li>
@@ -93,7 +106,7 @@
                       <li><a href="#">Content Marketing</a></li>
                     </ul>
                   </li>
-                  <li class="item">
+                  <li id="menu-6" class="item">
                     <a href="#">Contact</a>
                     <ul class="mega-menu--list">
                       <li><a href="#">Digital Consultancy</a></li>
@@ -117,7 +130,14 @@
         <div class="sidebar-logo text-center"><img src="images/logo.png" /></div>
         <div class="text-center" id="menu-toggle"><a href="#"><img src="images/icons/menu.png" /></a></div>
         <div class="list-group list-group-flush">
-          <a href="#" class="menu-icon"><img src="images/icons/search.png" /></a><hr class="horizontal-line">
+          <!-- <div class="position-relative"> -->
+            <a href="#" class="menu-icon search-icon position-relative"><img src="images/icons/search.png" />
+              <div class="md-form mt-0 position-absolute search-input">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </div>
+            </a>            
+          <!-- </div> -->
+          <hr class="horizontal-line">
           <a href="#" class="menu-icon"><img src="images/icons/facebook.png" /></a>
           <a href="#" class="menu-icon"><img src="images/icons/twitter.png" /></a>
           <a href="#" class="menu-icon"><img src="images/icons/instagram.png" /></a>
@@ -127,22 +147,27 @@
       <!-- End Sidebar -->
 
       <!-- Start Page Content -->
-      <div id="page-content-wrapper" class="home">
+      <div id="page-content-wrapper">
 
         <!-- Start Oblique Section -->
         <div class="position-relative">
           <div class="oblique-sec">
             <img src="images/oblique2.jpg" />
             <a href="#" class="play" data-toggle="modal" data-target="#videoPopup"><img src="images/icons/play.png" /></a>
-            <div class="creative"><p>creativity</p></div>
+            <div class="creative">
+              <p>creativity</p>
+            </div>
           </div>
         </div>
         <!-- Video Popup -->
-        <div class="modal fade" id="videoPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="videoPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-body">
-                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/DOBBwx3Cbbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/DOBBwx3Cbbk" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -156,54 +181,54 @@
               <h3>For the better digital world</h3>
             </div>
             <div class="owl-carousel owl-theme intro-carousel">
-              <div class="item">
+              <div class="item ml-3">
                 <div class="item-desc">
-                  <h4><span>Digital</span>Transformation Strategy</h4>
+                  <h4><span>Digital</span><span class="font-weight-bold text-dark">Transformation Strategy</span></h4>
                 </div>
                 <div class="item-icon">
                   <img src="images/icons/chatbot.png" />
                   <div class="vertical-line"></div>
                 </div>
               </div>
-              <div class="item">
+              <div class="item ml-3">
                 <div class="item-desc">
-                  <h4><span>Digital</span>Transformation Strategy</h4>
+                  <h4><span>Digital</span><span class="font-weight-bold text-dark">Transformation Strategy</span></h4>
                 </div>
                 <div class="item-icon">
                   <img src="images/icons/chatbot.png" />
                   <div class="vertical-line"></div>
                 </div>
               </div>
-              <div class="item">
+              <div class="item ml-3">
                 <div class="item-desc">
-                  <h4><span>Digital</span>Transformation Strategy</h4>
+                  <h4><span>Digital</span><span class="font-weight-bold text-dark">Transformation Strategy</span></h4>
                 </div>
                 <div class="item-icon">
                   <img src="images/icons/chatbot.png" />
                   <div class="vertical-line"></div>
                 </div>
               </div>
-              <div class="item">
+              <div class="item ml-3">
                 <div class="item-desc">
-                  <h4><span>Digital</span>Transformation Strategy</h4>
+                  <h4><span>Digital</span><span class="font-weight-bold text-dark">Transformation Strategy</span></h4>
                 </div>
                 <div class="item-icon">
                   <img src="images/icons/chatbot.png" />
                   <div class="vertical-line"></div>
                 </div>
               </div>
-              <div class="item">
+              <div class="item ml-3">
                 <div class="item-desc">
-                  <h4><span>Digital</span>Transformation Strategy</h4>
+                  <h4><span>Digital</span><span class="font-weight-bold text-dark">Transformation Strategy</span></h4>
                 </div>
                 <div class="item-icon">
                   <img src="images/icons/chatbot.png" />
                   <div class="vertical-line"></div>
                 </div>
               </div>
-              <div class="item">
+              <div class="item ml-3">
                 <div class="item-desc">
-                  <h4><span>Digital</span>Transformation Strategy</h4>
+                  <h4><span>Digital</span><span class="font-weight-bold text-dark">Transformation Strategy</span></h4>
                 </div>
                 <div class="item-icon">
                   <img src="images/icons/chatbot.png" />
@@ -219,14 +244,14 @@
         <div class="portfolio-sec">
           <div class="container">
             <div class="title">
-              <h2 class="py-5 text-center mr-4">Portfolio</h2>
+              <h2 class="py-5 text-center position-relative top-20-px portfolio-wrapper">Portfolio</h2>
             </div>
-            <div class="row mb-3 cards">
-              <div class="col-md-7 huge-card">
-                <div class="card">
-                  <img class="card-img-top p-5" src="images/mobile.png" alt="">
+            <div class="d-flex mb-2 cards no-gutters">
+              <div class="card-size-1">
+                <div class="card mr-2 h-100">
+                  <img class="mx-auto w-100 h-100  mt-3" src="images/card_image_sample_2.png" alt="">
                   <div class="card-body">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between align-items-center">
                       <div class="category">
                         <p class="type">360 Campaign</p>
                         <p class="mb-0 name">Color Run</p>
@@ -238,13 +263,15 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-5 small-cards">
-                <div class="row mb-3">
-                  <div class="col-md-12 d-flex">
-                    <div class="card">
-                      <div class="d-flex justify-content-center"><img class="card-img-top" src="images/mobile.png" alt=""></div>
+              <div class="card-size-2">
+                <div class="row mb-2">
+                  <div class="col d-flex">
+                    <div class="card w-100 mr-2">
+                      <div class="d-flex justify-content-center"><img class=" w-100 h-100 mx-auto p-2"
+                          src="images/card_image_sample_1.png" alt="">
+                      </div>
                       <div class="card-body">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between align-items-center">
                           <div class="category">
                             <p class="type">Website</p>
                             <p class="mb-0 name">Toyota Hev</p>
@@ -259,31 +286,35 @@
                 </div>
                 <div class="row">
                   <div class="col-md-12 d-flex">
-                    <div class="card">
-                      <div class="d-flex justify-content-center"><img class="card-img-top" src="images/mobile.png" alt=""></div>
+                    <div class="card mr-2 w-100">
+                      <div class="d-flex justify-content-center"><img class="w-100 h-100 mx-auto p-2"
+                          src="images/card_image_sample_1.png" alt="">
+                      </div>
                       <div class="card-body">
-                        <div class="d-flex justify-content-between">
-                      <div class="category">
-                        <p class="type">Mobile App</p>
-                        <p class="mb-0 name">Dubai Development</p>
-                      </div>
-                      <div class="d-flex align-items-end">
-                        <a href="javascript:void(0)"><img src="images/icons/card-arrow.png" /></a>
-                      </div>
-                    </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="category">
+                            <p class="type">Mobile App</p>
+                            <p class="mb-0 name">Dubai Development</p>
+                          </div>
+                          <div class="d-flex align-items-end">
+                            <a href="javascript:void(0)"><img src="images/icons/card-arrow.png" /></a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-  
-            <div class="row cards small-cards mb-3">
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="d-flex justify-content-center"><img class="card-img-top" src="images/mobile.png" alt=""></div>
+
+            <div class="cards small-cards mb-2">
+              <div class="card-size-2">
+                <div class="card mr-2">
+                  <div class="d-flex justify-content-center"><img class="w-100 h-100 mx-auto p-2"
+                      src="images/mobile_transparent.png" alt="">
+                  </div>
                   <div class="card-body">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between align-items-center">
                       <div class="category">
                         <p class="type">website</p>
                         <p class="mb-0 name">Armani Dubai</p>
@@ -295,11 +326,13 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="d-flex justify-content-center"><img class="card-img-top" src="images/mobile.png" alt=""></div>
+              <div class="card-size-2">
+                <div class="card mr-2">
+                  <div class="d-flex justify-content-center"><img class="w-100 h-100 mx-auto p-2"
+                      src="images/mobile_transparent.png" alt="">
+                  </div>
                   <div class="card-body">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between align-items-center">
                       <div class="category">
                         <p class="type">Website</p>
                         <p class="mb-0 name">MWTC</p>
@@ -311,11 +344,13 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="d-flex justify-content-center"><img class="card-img-top" src="images/mobile.png" alt=""></div>
+              <div class="card-size-2">
+                <div class="card mr-2">
+                  <div class="d-flex justify-content-center"><img class="w-100 h-100 mx-auto p-2"
+                      src="images/mobile_transparent.png" alt="">
+                  </div>
                   <div class="card-body">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between align-items-center">
                       <div class="category">
                         <p class="type">Social Media</p>
                         <p class="mb-0 name">Choozo</p>
@@ -328,51 +363,55 @@
                 </div>
               </div>
             </div>
-  
-            <div class="row cards">
-              <div class="col-md-5 small-cards">
-                <div class="row mb-3">
-                  <div class="col-md-12 d-flex">
-                    <div class="card">
-                      <div class="d-flex justify-content-center"><img class="card-img-top" src="images/mobile.png" alt=""></div>
+
+            <div class="d-flex">
+              <div class="card-size-2">
+                <div class="mb-2">
+                  <div class="">
+                    <div class="card mr-2">
+                      <div class="d-flex justify-content-center"><img class="w-100 h-100 mx-auto p-2"
+                          src="images/card_image_sample_1.png" alt="">
+                      </div>
                       <div class="card-body">
-                        <div class="d-flex justify-content-between">
-                      <div class="category">
-                        <p class="type">Website</p>
-                        <p class="mb-0 name">UFC</p>
-                      </div>
-                      <div class="d-flex align-items-end">
-                        <a href="javascript:void(0)"><img src="images/icons/card-arrow.png" /></a>
-                      </div>
-                    </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="category">
+                            <p class="type">Website</p>
+                            <p class="mb-0 name">UFC</p>
+                          </div>
+                          <div class="d-flex align-items-end">
+                            <a href="javascript:void(0)"><img src="images/icons/card-arrow.png" /></a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-12 d-flex">
-                    <div class="card">
-                      <div class="d-flex justify-content-center"><img class="card-img-top" src="images/mobile.png" alt=""></div>
+                <div class="">
+                  <div class="d-flex">
+                    <div class="card mr-2 ">
+                      <div class="d-flex justify-content-center"><img class="w-100 h-100 mx-auto p-2"
+                          src="images/mobile_transparent.png" alt="">
+                      </div>
                       <div class="card-body">
-                        <div class="d-flex justify-content-between">
-                      <div class="category">
-                        <p class="type">Mobile App</p>
-                        <p class="mb-0 name">Toyota</p>
-                      </div>
-                      <div class="d-flex align-items-end">
-                        <a href="javascript:void(0)"><img src="images/icons/card-arrow.png" /></a>
-                      </div>
-                    </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="category">
+                            <p class="type">Website</p>
+                            <p class="mb-0 name">UFC</p>
+                          </div>
+                          <div class="d-flex align-items-end">
+                            <a href="javascript:void(0)"><img src="images/icons/card-arrow.png" /></a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-7 huge-card">
-                <div class="card">
-                  <img class="card-img-top" src="images/mobile.png" alt="">
+              <div class="card-size-1">
+                <div class="card mr-2 h-100">
+                  <img class="mx-auto w-100 h-100  mt-3" src="images/card_image_sample_2.png" alt="">
                   <div class="card-body">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between align-items-center">
                       <div class="category">
                         <p class="type">Website</p>
                         <p class="mb-0 name">Armani Milan</p>
@@ -386,8 +425,12 @@
               </div>
             </div>
             <!-- Button -->
-            <div class="mt-4 d-flex justify-content-end align-items-center">
-              <a href="javascript:void(0)" class="btn btn-primary btn-main">All Projects</a><i class="fas fa-angle-right"></i>
+            <div class="mt-4 all-projects-btn-wrapper d-flex justify-content-end align-items-center mr-4">
+              <a href="javascript:void(0)"
+                class="align-items-center btn btn-main btn-primary d-flex justify-content-between">All Projects
+                <div class="btn-arrow"></div>
+              </a>
+
             </div>
           </div>
         </div>
@@ -395,9 +438,9 @@
 
         <!-- Start Partners Section -->
         <div class="partners-contain">
-          <div class="container">
+          <div class="">
             <div class="title">
-              <h2 class="py-4 text-center">Partners</h2>
+              <h2 class="py-5 text-center">Partners</h2>
             </div>
           </div>
           <div class="partners-sec">
@@ -406,24 +449,32 @@
                 <p>We work with</p>
                 <p>forward thinking brands</p>
               </div>
-              <div class="partner"><img src="images/ministryOfHousing.png" /></div>
-              <div class="partner"><img src="images/maximiliano.png" /></div>
-              <div class="partner"><img src="images/operation.png" /></div>
-              <div class="partner"><img src="images/rwasn.png" /></div>
-              <div class="partner"><img src="images/toyota.png" /></div>
-              <div class="partner"><img src="images/catch.png" /></div>
-              <div class="partner"><img src="images/mes.png" /></div>
-              <div class="partner"><img src="images/sakani.png" /></div>
-              <div class="partner"><img src="images/ministryOfHousing.png" /></div>
-              <div class="partner"><img src="images/ministryOfHousing.png" /></div>
-              <div class="partner"><img src="images/ministryOfHousing.png" /></div>
-              <div class="partner"><img src="images/ministryOfHousing.png" /></div>
-              <div class="partner"><img src="images/ministryOfHousing.png" /></div>
-              <div class="partner"><img src="images/ministryOfHousing.png" /></div>
-              <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+              <div class="d-flex flex-row flex-wrap partner-wrapper">
+                <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+                <div class="partner"><img src="images/maximiliano.png" /></div>
+                <div class="partner"><img src="images/operation.png" /></div>
+                <div class="partner"><img src="images/rwasn.png" /></div>
+                <div class="partner"><img src="images/toyota.png" /></div>
+                <div class="partner"><img src="images/catch.png" /></div>
+                <div class="partner"><img src="images/mes.png" /></div>
+                <div class="partner"><img src="images/sakani.png" /></div>
+                <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+                <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+                <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+                <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+                <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+                <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+                <div class="partner"><img src="images/ministryOfHousing.png" /></div>
+              </div>
+
               <!-- Button -->
-              <div class="mt-5 pt-4 d-flex justify-content-end align-items-center">
-                <a href="javascript:void(0)" class="btn btn-primary btn-main">More Partners</a><i class="fas fa-angle-right"></i>
+              <div class="mt-4 d-flex justify-content-end align-items-center mr-4">
+                <a href="javascript:void(0)"
+                  class="align-items-center btn btn-main btn-primary d-flex justify-content-between text-capitalize">more
+                  partners
+                  <div class="btn-arrow"></div>
+                </a>
+
               </div>
             </div>
           </div>
@@ -431,139 +482,211 @@
         <!-- End Partners Section -->
 
         <!-- Start Blog Section -->
-        <div class="blog-sec pb-3">
+        <div class="blog-sec pb-4">
           <div class="container">
             <div class="title">
               <h2 class="pb-5 text-center text-light">Blog</h2>
             </div>
             <div class="owl-carousel owl-theme blog-carousel">
               <div class="item">
-                <div class="row mb-4">
-                  <div class="offset-md-1 col-md-6 text-center">
+                <div class="d-flex mb-4">
+                  <div class="card-size-3 blog-item-margin text-center">
                     <img src="images/blog-one.jpg" class="blog-img" />
                   </div>
-                  <div class="col-md-5">
-                    <div class="pl-5">
+                  <div class="card-size-4">
+                    <div class="px-1">
                       <h3>Tips on how to manage a brainstorming session</h3>
-                      <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="mt-4 blog-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <!-- Button -->
-                    <div class="mt-4 pl-5 d-flex justify-content-start align-items-center">
-                      <a href="javascript:void(0)" class="btn btn-primary btn-main">Read More</a><i class="fas fa-angle-right"></i>
+                    <div class="mt-4 d-flex justify-content-start align-items-center mr-4">
+                      <a href="javascript:void(0)"
+                        class="align-items-center btn btn-main btn-primary d-flex justify-content-between text-capitalize">read
+                        more
+                        <div class="btn-arrow"></div>
+                      </a>
+
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="offset-md-1 col-md-6 text-center">
+                <div class="d-flex">
+                  <div class="card-size-3 blog-item-margin text-center">
                     <img src="images/blog-two.jpg" class="blog-img" />
                   </div>
-                  <div class="col-md-5">
-                    <div class="pl-5">
+                  <div class="card-size-4">
+                    <div class="px-1">
                       <h3>Tips on how to manage a brainstorming session</h3>
-                      <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="mt-4 blog-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <!-- Button -->
-                    <div class="mt-4 pl-5 d-flex justify-content-start align-items-center">
-                      <a href="javascript:void(0)" class="btn btn-primary btn-main">Read More</a><i class="fas fa-angle-right"></i>
+                    <div class="mt-4 d-flex justify-content-start align-items-center mr-4">
+                      <a href="javascript:void(0)"
+                        class="align-items-center btn btn-main btn-primary d-flex justify-content-between text-capitalize">read
+                        more
+                        <div class="btn-arrow"></div>
+                      </a>
+
                     </div>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="row mb-4">
-                  <div class="offset-md-1 col-md-6 text-center">
+                <div class="d-flex mb-4">
+                  <div class="card-size-3 blog-item-margin text-center">
                     <img src="images/blog-one.jpg" class="blog-img" />
                   </div>
-                  <div class="col-md-5">
-                    <div class="pl-5">
+                  <div class="card-size-4">
+                    <div class="px-1">
                       <h3>Tips on how to manage a brainstorming session</h3>
-                      <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="mt-4 blog-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <!-- Button -->
-                    <div class="mt-4 pl-5 d-flex justify-content-start align-items-center">
-                      <a href="javascript:void(0)" class="btn btn-primary btn-main">Read More</a><i class="fas fa-angle-right"></i>
+                    <div class="mt-4 d-flex justify-content-start align-items-center mr-4">
+                      <a href="javascript:void(0)"
+                        class="align-items-center btn btn-main btn-primary d-flex justify-content-between text-capitalize">read
+                        more
+                        <div class="btn-arrow"></div>
+                      </a>
+
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="offset-md-1 col-md-6 text-center">
+                <div class="d-flex">
+                  <div class="card-size-3 blog-item-margin text-center">
                     <img src="images/blog-two.jpg" class="blog-img" />
                   </div>
-                  <div class="col-md-5">
-                    <div class="pl-5">
+                  <div class="card-size-4">
+                    <div class="px-1">
                       <h3>Tips on how to manage a brainstorming session</h3>
-                      <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="mt-4 blog-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <!-- Button -->
-                    <div class="mt-4 pl-5 d-flex justify-content-start align-items-center">
-                      <a href="javascript:void(0)" class="btn btn-primary btn-main">Read More</a><i class="fas fa-angle-right"></i>
+                    <div class="mt-4 d-flex justify-content-start align-items-center mr-4">
+                      <a href="javascript:void(0)"
+                        class="align-items-center btn btn-main btn-primary d-flex justify-content-between text-capitalize">read
+                        more
+                        <div class="btn-arrow"></div>
+                      </a>
+
                     </div>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="row mb-4">
-                  <div class="col-md-6 text-center">
+                <div class="d-flex mb-4">
+                  <div class="card-size-3 blog-item-margin text-center">
                     <img src="images/blog-one.jpg" class="blog-img" />
                   </div>
-                  <div class="col-md-6">
-                    <div class="pl-5">
+                  <div class="card-size-4">
+                    <div class="px-1">
                       <h3>Tips on how to manage a brainstorming session</h3>
-                      <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="mt-4 blog-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <!-- Button -->
-                    <div class="mt-4 pl-5 d-flex justify-content-start align-items-center">
-                      <a href="javascript:void(0)" class="btn btn-primary btn-main">Read More</a><i class="fas fa-angle-right"></i>
+                    <div class="mt-4 d-flex justify-content-start align-items-center mr-4">
+                      <a href="javascript:void(0)"
+                        class="align-items-center btn btn-main btn-primary d-flex justify-content-between text-capitalize">read
+                        more
+                        <div class="btn-arrow"></div>
+                      </a>
+
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6 text-center">
+                <div class="d-flex">
+                  <div class="card-size-3 blog-item-margin text-center">
                     <img src="images/blog-two.jpg" class="blog-img" />
                   </div>
-                  <div class="col-md-6">
-                    <div class="pl-5">
+                  <div class="card-size-4">
+                    <div class="px-1">
                       <h3>Tips on how to manage a brainstorming session</h3>
-                      <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                      <p class="mt-4 blog-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <!-- Button -->
-                    <div class="mt-4 pl-5 d-flex justify-content-start align-items-center">
-                      <a href="javascript:void(0)" class="btn btn-primary btn-main">Read More</a><i class="fas fa-angle-right"></i>
+                    <div class="mt-4 d-flex justify-content-start align-items-center mr-4">
+                      <a href="javascript:void(0)"
+                        class="align-items-center btn btn-main btn-primary d-flex justify-content-between text-capitalize">read
+                        more
+                        <div class="btn-arrow"></div>
+                      </a>
+
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
             <!-- Button -->
-            <div class="mt-2 d-flex justify-content-end align-items-center">
-              <a href="javascript:void(0)" class="btn btn-primary btn-main">All Articles</a><i class="fas fa-angle-right"></i>
+            <div class="all-articles-wrapper d-flex justify-content-end align-items-center mr-4">
+              <a href="javascript:void(0)"
+                class="align-items-center btn btn-main btn-primary d-flex justify-content-between text-capitalize">all
+                articles
+                <div class="btn-arrow"></div>
+              </a>
+
             </div>
           </div>
         </div>
         <!-- End Blog Section -->
 
         <!-- Start Map -->
-        <div class="map-sec pb-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="title ml-5 mb-4">
-                  <h2 class="text-center">Offices</h2>
+        <div class="map-sec py-5">
+          <div class="title">
+            <h2 class="pb-5 text-center">offices</h2>
+          </div>
+          <div class="d-flex">
+            <div class="map-flex-wrapper d-flex justify-content-center">
+              <img src="images/map.png" class="img-fluid" />
+
+              <div class="pointers-wrapper position-relative">
+                <div class="gcc-offices" data-region="gcc">
+                  <div class="map-pointer selected  " id="dubaiPointer" data-region="gcc">
+                    <div class="glow-pointer glowing"></div>
+                  </div>
+                  <div class="map-pointer" id="abuDhabiPointer" data-region="gcc">
+                    <div class="glowing"></div>
+                  </div>
+                  <div class="map-pointer" id="jeddahPointer" data-region="gcc">
+                    <div class="glowing"></div>
+                  </div>
+
                 </div>
+                <div class="africa-offices" data-region="africa">
+                  <div class="map-pointer" data-region="africa" id="cairoPointer">
+                    <div class="glowing"></div>
+                  </div>
+                  <div class="map-pointer" data-region="africa" id="casablancaPointer">
+                    <div class="glowing"></div>
+                  </div>
+                </div>
+
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="offset-md-1 col-md-9">
-              <img src="images/map.png" class="img-fluid" />
-            </div>
-            <div class="col-md-2">
-              <ul class="offices">
-                <li>Dubai</li>
-                <li>Abu Dhabi</li>
-                <li>Jeddah</li>
-                <li>Cairo</li>
-                <li>Casablanca</li>
+            <div class="offices-wrapper">
+              <ul class="offices position-relative">
+                <li for="dubaiPointer" data-region="gcc" class="position-relative selected">Dubai</li>
+                <li for="abuDhabiPointer" data-region="gcc" class="position-relative">Abu Dhabi</li>
+                <li for="jeddahPointer" data-region="gcc" class="position-relative">Jeddah</li>
+                <li for="cairoPointer" data-region="africa" class="position-relative">Cairo</li>
+                <li for="casablancaPointer" data-region="africa" class="position-relative">Casablanca</li>
               </ul>
             </div>
           </div>
@@ -576,7 +699,8 @@
           <p class="text-center">Start a project with us today.</p>
           <!-- Button -->
           <div class="d-flex justify-content-center align-items-center mt-5 mb-3">
-            <a href="javascript:void(0)" class="btn btn-primary btn-main">Start a Project</a><i class="fas fa-angle-right"></i>
+            <a href="javascript:void(0)" class="btn btn-primary btn-main">Start a Project</a><i
+              class="fas fa-angle-right"></i>
           </div>
         </div>
         <!-- End Get In Touch -->
@@ -585,11 +709,14 @@
         <footer>
           <div class="row footer-top px-5">
             <div class="col-md-6 text-center">
-              <h4 class="text-left "><span>Pulse</span> is a <span>premium digital agency</span> in Dubai that offers clients the opportunity to unlock the potential of digital marketing solutions across <span>UAE & MENA</span></h4>
+              <h4 class="text-left "><span>Pulse</span> is a <span>premium digital agency</span> in Dubai that offers
+                clients the opportunity to unlock the potential of digital marketing solutions across <span>UAE &
+                  MENA</span></h4>
             </div>
             <div class="col-md-6 footer-top--details">
               <h4 class="text-left"><span>+971554884865 | info@pulsedigital.ae</span></h4>
-              <p class="text-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+              <p class="text-light">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration</p>
             </div>
           </div>
           <div class="horizontal-line mt-3"></div>
@@ -597,14 +724,27 @@
             <div class="row">
               <div class="col-md-2">
                 <h5>About</h5>
-                <ul>
-                  <li><a href="#">Who we are</a></li>
-                  <li><a href="#">Technologies</a></li>
-                  <li><a href="#">Partners</a></li>
-                  <li><a href="#">The Team</a></li>
-                </ul>
+                <div class="d-flex flex-column justify-content-between h-100">
+                  <ul>
+                    <li><a href="#">Who we are</a></li>
+                    <li><a href="#">Technologies</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">The Team</a></li>
+                  </ul>
+                  <ul class="careers-testimonials-wrapper">
+                    <li>
+                      <a class="privacy" href="#">Careers</a>
+                    </li>
+                    <li>
+                      <a class="privacy" href="#">Testimonials</a>
+                    </li>
+                    <li>
+                      <a class="privacy" href="#">legal & Privacy</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <h5>Services</h5>
                 <ul>
                   <li><a href="#">Digital Transformation Strategy</a></li>
@@ -650,15 +790,15 @@
               </div>
             </div>
             <div class="row stay">
-              <div class="col-md-2">
-                <a href="#" class="privacy">Careers Testimonials Legal & Privacy</a>
-              </div>
-              <div class="offset-md-2 col-md-6 up-to-date">
+
+              <div class="offset-5 up-to-date">
                 <h5>Stay up to date</h5>
                 <div class="vertical-line"></div>
                 <p class="newsletter">Sign up to our newsletter to receive all things appetite creative</p>
                 <div class="vertical-line"></div>
-                <p class="email">Your Email Address</p>
+                <div class="d-flex flex-column ">
+                    <input type="email" placeholder="your email adress" class="newsletter-input" />
+                </div>
               </div>
             </div>
           </div>
@@ -670,7 +810,7 @@
 
       </div>
       <!-- End Page Content -->
-      
+
     </div>
 
     <!-- JQuery -->
@@ -681,46 +821,38 @@
     <script src="vendor/font-awesome/js/fontawesome-all.js"></script>
     <!-- Owl Carousel JS -->
     <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <!-- Menu Toggle Script -->
     <!-- Custom JS -->
     <script src="js/script.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-      $("#menu-toggle img").click(function() {
-        $(".mega-menu").toggle('show');
-        $("html").toggleClass('scroll')
-        if($("#menu-toggle img").attr('src') == 'images/icons/menu.png')
-          $("#menu-toggle img").attr('src', 'images/icons/close-button.png');
-        else
-          $("#menu-toggle img").attr('src', 'images/icons/menu.png');
-      });
-    </script>
+
     <script>
       $('.intro-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:2,
-                nav:false
-            },
-            1000:{
-                items:3,
-                nav:true,
-                loop:false
-            }
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 2,
+            nav: false
+          },
+          1000: {
+            items: 3,
+            nav: true,
+            loop: false
+          }
         }
       });
       $('.blog-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        items:1,
-        // nav:true,
-        // navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+        loop: true,
+        margin: 10,
+        items: 1,
+        nav: true,
+        navText: ["<img src='images/icons/left-card-arrow.png'>","<img src='images/icons/card-arrow.png'>"],
+        navClass: ['owl-prev','owl-next']
       });
     </script>
   </body>
