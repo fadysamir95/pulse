@@ -110,7 +110,7 @@ input[type=number] {
 }
 #sidebar-wrapper .search-input {
   top: -0.3rem;
-  left: 6.9rem;
+  left: 6.8rem;
   width: 200px;
   z-index: 5;
 }
@@ -122,6 +122,8 @@ input[type=number] {
   background-color: #fff;
   box-shadow: none;
   font-family: sansregular;
+  border: 1px solid #000;
+  border-left: 0;
 }
 #sidebar-wrapper .search-icon img {
   width: 19px;
@@ -253,37 +255,10 @@ input[type=number] {
 }
 
 /* Oblique Section */
-.oblique-sec {
-  background-color: #fff;
+#video {
   width: 100%;
-  overflow: hidden;
-}
-.oblique-sec img {
-  width: 100%;
-}
-.oblique-sec .play {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  cursor: pointer;
-}
-.oblique-sec .creative {
-  position: absolute;
-  top: 50%;
-  left: 29%;
-}
-.oblique-sec .creative p {
-  color: #e30029;
-  letter-spacing: 50px;
-  text-transform: uppercase;
-  font-size: 30px;
-  font-family: sanslight;
-}
-.home .modal-body {
-  padding: 0;
-}
-.home .modal-content {
-  height: 400px;
+  max-height: 500px;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 72%);
 }
 
 /* Intro Section */
@@ -340,9 +315,6 @@ input[type=number] {
 .portfolio-sec .cards {
   display: flex;
   align-items: stretch;
-}
-.portfolio-sec .card {
-  cursor: pointer;
 }
 .portfolio-sec .small-cards {
   display: flex;
@@ -423,6 +395,41 @@ input[type=number] {
 }
 .blog-sec .owl-nav .owl-next:hover, .blog-sec .owl-nav .owl-next:active, .blog-sec .owl-nav .owl-next:focus {
   background-color: transparent;
+}
+
+/* Map Section */
+.map-sec {
+  background-color: #f2f2f2;
+}
+.map-sec .offices {
+  margin-right: 52px;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 3rem;
+}
+.map-sec .offices li {
+  margin-bottom: 1rem;
+  font-size: 25px;
+  font-family: sanslight;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+.map-sec .offices li.selected {
+  font-weight: 600;
+  font-family: sansregular;
+}
+.map-sec .offices li::after {
+  content: '';
+   display: inline-block;
+   width: 5px;
+   height: 5px;
+   -moz-border-radius: 7.5px;
+   -webkit-border-radius: 7.5px;
+   border-radius: 7.5px;
+   background-color: #fff;
+   margin-left: 5px;
 }
 
 /* Footer */

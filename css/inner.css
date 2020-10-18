@@ -206,40 +206,6 @@ color: #e30029;
 font-weight: 600;
 }
 
-/* Map Section */
-.map-sec {
-background-color: #f2f2f2;
-}
-.map-sec .offices {
-margin-right: 52px;
-list-style: none;
-padding-left: 0;
-margin-top: 3.5rem;
-}
-.map-sec .offices li {
-margin-bottom: 1rem;
-font-size: 25px;
-font-family: sanslight;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-}
-.map-sec .offices li:first-child {
-font-weight: 600;
-font-family: sansregular;
-}
-.map-sec .offices li::after {
-content: '';
-display: inline-block;
-width: 5px;
-height: 5px;
--moz-border-radius: 7.5px;
--webkit-border-radius: 7.5px;
-border-radius: 7.5px;
-background-color: #fff;
-margin-left: 5px;
-}
-
 /* Form Section */
 .form-sec h3 {
 font-size: 32px;

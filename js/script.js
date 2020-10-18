@@ -22,6 +22,13 @@ $(document).ready(function () {
         var menuID = $(this).attr('id');
         $(".mega-menu .mega-menu--nav li#" + menuID + " .mega-menu--list").show();
     });
+    $(document).on('keydown', function(event) {
+        if (event.key == "Escape") {
+            $(".mega-menu").hide();
+            $("#menu-toggle img").attr('src', 'images/icons/menu.png');
+            $(".sidebar-logo").addClass('invisible');
+        }
+    });
 
     //map city selection
     $('.offices li').click(function () {
@@ -44,17 +51,20 @@ $(document).ready(function () {
         else
             $(".search-icon img").attr('src', 'images/icons/search.png');
     })
-    // $(document).click(function() {
-    //     $(".search-input input").hide();
-    //     if ($(".search-icon img").attr('src') == 'images/icons/search.png')
-    //         $(".search-icon img").attr('src', 'images/icons/close-search.png');
-    //     else
-    //         $(".search-icon img").attr('src', 'images/icons/search.png');
-    // });
-    // $(".search-input input").click(function(e) {
-    //     e.stopPropagation();
-    //     return false;
-    // });
+    $(document).click(function() {
+        $(".search-input input").hide();
+        $(".search-icon img").attr('src', 'images/icons/search.png');
+    });
+    $(".search-input input, .search-icon img").click(function(e) {
+        e.stopPropagation();
+        return false;
+    });
+    $(document).on('keydown', function(event) {
+        if (event.key == "Escape") {
+            $(".search-input input").hide();
+            $(".search-icon img").attr('src', 'images/icons/search.png');
+        }
+    });
 });
 
 function menuInitialState() {

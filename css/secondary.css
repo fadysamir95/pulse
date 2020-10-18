@@ -58,7 +58,7 @@ button, a{outline: none!important;}
     z-index: 0;
   }
   .title h2{
-      margin-left:0
+      margin-left:0;
   }
   .owl-theme .owl-dots .owl-dot span {
     width: 18px;
@@ -80,9 +80,6 @@ button, a{outline: none!important;}
 }
 .portfolio-wrapper{
     margin-left:-40px!important
-}
-.partners-contain h2{
-    /*margin-left:-15px!important*/
 }
 .map-sec .offices li{
 justify-content: flex-end;
@@ -227,7 +224,7 @@ justify-content: flex-end;
 }
 .all-projects-btn-wrapper .btn-arrow{
     top:0
-    }
+}
 .btn-main {
     background-color: transparent;
     border: 1px solid #e30029;
@@ -362,9 +359,12 @@ and (min-width : 1440px) and (max-width:1460px) { /*1440px resolution*/
 }
 @media only screen 
 and (min-width : 1360px) and (max-width:1366px) { /*1366px resolution*/
+    .title h2{
+        margin-left:5px;
+    }
 .pulse {
     left: 8.2%;
-    top:1008px
+    top:739px
   }
   .pulse svg {
     height: 3104pt;
@@ -379,7 +379,6 @@ and (min-width : 1360px) and (max-width:1366px) { /*1366px resolution*/
 @media only screen and (min-width : 1350px) and (max-width:1360px) {
     .pulse {
         left: 8%;
-        
       }
     
     }
